@@ -1,0 +1,58 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article {
+    display: flex;
+    
+}
+
+@media  (max-witdh: 580px) {
+    article {
+        flex-direction: column;
+    }
+}
+
+p{
+    color: red;
+}
+
+.italic {
+ font-style: italic;
+}
+.italic span {
+    font-weight: bold;
+}
+.skills-table, th {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+img{
+    width: 150px;
+    display:block;
+    transition: transform .5s;
+}
+/*p{
+    width: 100px;
+}*/
+.chat{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.chat a {
+    text-decoration: none;
+    color: gray;
+    font-size: 28px;
+}
+img:hover {
+    transform: rotate(20deg);
+}
